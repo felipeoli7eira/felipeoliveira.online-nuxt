@@ -1,5 +1,5 @@
 <template>
-    <header class="border border-red-100 flex flex-col space-y-4 md:flex-row items-center justify-between p-7">
+    <header class="flex flex-col space-y-4 md:flex-row items-center justify-between p-7">
         <h1 class="font-bold text-3xl">Felipe A. Oliveira</h1>
         <nav class="space-x-5 flex items-center">
             <RouterLink v-for="(link, index) in links" :key="index" :to="link.to">{{ link.label }}</RouterLink>
