@@ -59,8 +59,4 @@
 
 <script lang="ts" setup>
     import 'primeicons/primeicons.css'
-
-    onMounted(() => {
-        document.title = 'Felipe A. Oliveira - Desenvolvedor de software'
-    })
 </script>
