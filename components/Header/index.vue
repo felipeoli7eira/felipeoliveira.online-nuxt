@@ -21,10 +21,10 @@
             label: 'Currículo',
             to:  '/'
         },
-        {
-            label: 'Trabalhos',
-            to:  'trabalhos'
-        },
+        // {
+        //     label: 'Trabalhos',
+        //     to:  'trabalhos'
+        // },
         {
             label: 'Sobre',
             to:  'sobre'

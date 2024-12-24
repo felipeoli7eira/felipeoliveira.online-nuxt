@@ -1,5 +1,5 @@
 <template>
-    <main class="h-screen overflow-y-auto max-w-screen-md mx-auto justify-between flex flex-col">
+    <main id="layoutMain" class="h-screen max-w-screen-md mx-auto justify-between flex flex-col">
         <Header />
         <NuxtPage />
         <Footer />
@@ -7,7 +7,7 @@
 </template>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Geist+Mono:wght@100..900&display=swap');
 
     * {
         font-family: "Funnel Display", serif;
@@ -52,7 +52,7 @@
         text-underline-offset: 4px;
     }
 
-    body {
+    html {
         background-image: url(/dots.svg);
     }
 </style>
