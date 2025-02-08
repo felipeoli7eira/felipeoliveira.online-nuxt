@@ -10,7 +10,9 @@
         <SectionSeparator />
 
         <SectionStructure title="Experiências">
-            <ExperienceCard v-for="(exp, index) in experiences.slice(0, 3)" :key="index"
+            <ExperienceCard
+                v-for="(exp, index) in experiences.slice(0, 3)"
+                :key="index"
                 :company="exp.company"
                 :locale="exp.locale"
                 :ocupation="exp.ocupation"
@@ -20,7 +22,9 @@
             />
 
             <div v-if="seeMore">
-                <ExperienceCard v-for="(exp, index) in experiences.slice(3)" :key="index"
+                <ExperienceCard
+                    v-for="(exp, index) in experiences.slice(3)"
+                    :key="index"
                     :company="exp.company"
                     :locale="exp.locale"
                     :ocupation="exp.ocupation"
