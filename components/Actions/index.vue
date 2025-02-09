@@ -36,13 +36,13 @@
         },
         {
             icon: "pi pi-envelope",
-            url: "mailto:me.felipeoliveira@gmail.com",
+            url: "mailto:contato@felipeoliveira.online",
             target: "_self"
         }
         ,
         {
             icon: "pi pi-file-pdf",
-            url: "https://drive.google.com/file/d/1vH_5icEGRL3ooW1U6IKK3aazXeSq1wIC/view?usp=sharing",
+            url: "https://drive.google.com/file/d/1DnpZJ6FokovfS9NXUMhM4ViAstz6sHFn/view?usp=sharing",
             target: "_blank"
         }
     ];
