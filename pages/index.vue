@@ -3,7 +3,7 @@
         <SectionSeparator />
 
         <SectionStructure title="Apresentação">
-            <p>Desenvolvedor full stack desde 2019, atuando em projetos do setor público e privado, produtos novos e sistemas legados, especialista em entregar soluções completas de ponta a ponta que realmente agregam valor. Perfil autodidata e prático, sempre buscando o aprimoramento das habilidades enquanto entrega sistemas de alta qualidade que geram impacto positivo para o usuário final.</p>
+            <p>Desenvolvedor <b>full stack</b> desde 2019, atuando em projetos do setor público e privado, produtos novos e sistemas legados, especialista em entregar soluções completas de ponta a ponta que realmente agregam valor. Perfil autodidata e prático, sempre buscando o aprimoramento das habilidades enquanto entrega sistemas de alta qualidade que geram impacto positivo para o usuário final.</p>
             <Actions />
         </SectionStructure>
 
@@ -11,31 +11,31 @@
 
         <SectionStructure title="Experiências">
             <ExperienceCard
-                v-for="(exp, index) in experiences.slice(0, 3)"
+                v-for="(xp, index) in experiences.slice(0, 3)"
                 :key="index"
-                :company="exp.company"
-                :locale="exp.locale"
-                :ocupation="exp.ocupation"
-                :dateRange="exp.dateRange"
-                :desc="exp.desc"
-                :link="exp.link"
+                :company="xp.company"
+                :locale="xp.locale"
+                :ocupation="xp.ocupation"
+                :dateRange="xp.dateRange"
+                :desc="xp.desc"
+                :link="xp.link"
             />
 
             <div v-if="seeMore">
                 <ExperienceCard
-                    v-for="(exp, index) in experiences.slice(3)"
+                    v-for="(xp, index) in experiences.slice(3)"
                     :key="index"
-                    :company="exp.company"
-                    :locale="exp.locale"
-                    :ocupation="exp.ocupation"
-                    :dateRange="exp.dateRange"
-                    :desc="exp.desc"
-                    :link="exp.link"
+                    :company="xp.company"
+                    :locale="xp.locale"
+                    :ocupation="xp.ocupation"
+                    :dateRange="xp.dateRange"
+                    :desc="xp.desc"
+                    :link="xp.link"
                 />
             </div>
 
             <div class="flex justify-center">
-                <button @click="seeMore = !seeMore" class="btn btn-neutral rounded-full flex">
+                <button @click="toggleSeeMore" class="btn btn-neutral rounded-full flex">
                     {{ seeMore ? 'Ver menos' : 'Ver mais' }}
                 </button>
             </div>
@@ -59,4 +59,8 @@
   import education from "./education";
 
   const seeMore = ref<boolean>(false);
+
+  function toggleSeeMore(): void {
+    seeMore.value = !seeMore.value;
+  }
 </script>

@@ -29,9 +29,9 @@
             label: 'Sobre',
             to:  'sobre'
         },
-        // {
-        //     label: "Feedbacks",
-        //     to: "/feedbacks"
-        // }
+        {
+            label: "Feedbacks",
+            to: "/feedbacks"
+        }
     ]
 </script>
