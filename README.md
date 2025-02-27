@@ -1,11 +1,12 @@
-# Nuxt Minimal Starter
+# Site profissional
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este é meu site profissional. Nele eu mantenho atualizado minhas informações de contato e de carreira. Acesse: [felipeoliveira.online](https://www.felipeoliveira.online)
 
 ## Setup
 
-Make sure to install dependencies:
+Esse projeto está construído basicamente com [Nuxt](http://nuxt.com) e [Tailwind](https://tailwindcss.com). Caso seja do seu interesse rodar localmente, essas são as etapas para fazer isso (depois de clonar esse repo para a sua máquina):
 
+##  Instale as dependências
 ```bash
 # npm
 npm install
@@ -20,9 +21,8 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Inicie o servidor de desenvolvimento
 
-Start the development server on `http://localhost:3000`:
 
 ```bash
 # npm
@@ -38,38 +38,23 @@ yarn dev
 bun run dev
 ```
 
-## Production
+Acesse `http://localhost:3000`
 
-Build the application for production:
+## Produção
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
+Para a produção, eu gero os arquivos estáticos com:
 
 ```bash
 # npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+npm run generate
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Siga-me nas redes sociais
+
+<a href="https://www.instagram.com/oli7eirafelipe">
+  <img src="https://skillicons.dev/icons?i=instagram" />
+</a>
+
+<a href="https://www.linkedin.com/in/felipeoli7eira">
+  <img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
