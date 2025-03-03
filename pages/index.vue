@@ -3,7 +3,11 @@
         <SectionSeparator />
 
         <SectionStructure title="Apresentação">
-            <p>Desenvolvedor <b>full stack</b> desde 2019, atuando em projetos do setor público e privado, produtos novos e sistemas legados, especialista em entregar soluções completas de ponta a ponta que realmente agregam valor. Perfil autodidata e prático, sempre buscando o aprimoramento das habilidades enquanto entrega sistemas de alta qualidade que geram impacto positivo para o usuário final.</p>
+            <p>
+                Meu compromisso é entregar software de qualidade, agregando valor ao usuário final e à equipe.
+                Desenvolvedor full stack desde 2019, atuando em soluções para empresas do setor público e privado, produtos novos e sistemas legados, arquiteturas monolíticas e de micro-serviços.
+                Tenho proficiência em tecnologias como React, Vue e Angular, e em stacks de backend como Laravel e NodeJS, além de experiência com bancos de dados relacionais e não relacionais.
+            </p>
             <Actions />
         </SectionStructure>
 

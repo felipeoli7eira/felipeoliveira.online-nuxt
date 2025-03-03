@@ -5,8 +5,9 @@ const experiences = [
     ocupation: "Desenvolvedor Backend",
     dateRange: "AGO 2024 - FEV 2025",
     desc: `
-      Líder técnico do Trade App One Online, plataforma que conecta consumidores a marcas como McAfee, Claro, Pernambucanas e HP.
-      Minha atuação como full stack foca na entrega de uma experiência de compra fluida e estratégica, integrando tecnologias como Symfony, Vue 3 com TypeScript e Sass, MySQL e Docker.
+      Líder técnico do "Trade App One Online", plataforma que conecta consumidores a marcas como McAfee, Claro, Pernambucanas e HP.
+      Desenvolvi landing pages para essas marcas, integrava métodos de pagamento e garantia uma experiência de compra fluída e sem erros.
+      Para tanto, utilizava tecnologias como Symfony, Vue 3 com TypeScript e Sass, MySQL e Docker.
     `,
     link: "https://www.tradeupgroup.com",
   },
@@ -16,8 +17,9 @@ const experiences = [
     ocupation: "Desenvolvedor full stack",
     dateRange: "JAN 2024 - AGO 2024",
     desc: `
-        Implementei de ponta a ponta o módulo VAF, uma solução para automatizar e otimizar a gestão fiscal em municípios, maximizando repasses de ICMS e reduzindo erros.
-        Atuei principalmente com React com TypeScript, Laravel, SQL Server e Apache NiFi em um sistema de relatórios e indicadores que aprimorou auditorias e planejamento tributário.
+        Implementei de ponta a ponta o "VAF", uma solução que automatiza e otimiza a gestão fiscal em municípios, maximizando repasses de ICMS.
+        Atuei principalmente com React (TypeScript), Laravel, SQL Server e Apache NiFi em um sistema de relatórios e indicadores que aprimorou o planejamento tributário e trouxe uma gestão fiscal mais eficiente.
+        O VAF é um micro serviço do ecossistema que estava sendo criado, chamado "plataforma".
       `,
     link: "https://www.linkedin.com/company/acaruiy",
   },
@@ -27,9 +29,11 @@ const experiences = [
     ocupation: "Desenvolvedor full stack",
     dateRange: "MAR 2023 - JAN 2024",
     desc: `
-      Desenvolvi um sistema interno de onboarding com análise de risco para clientes investidores e gestão dos mesmos, integrando Big Data Corp para fornecer indicadores críticos aos setores responsáveis.
-      Criei APIs robustas para o app exclusivo dos clientes, permitindo o acompanhamento em tempo real de resultados financeiros.
-      Essas e outras soluções entreguei utilizando principalmente VueJS 3 com typeScript e Sass, Laravel, MongoDB, MySQL e Docker.
+      Desenvolvi um sistema interno de onboarding e gestão, com análise de risco para novos clientes investidores, integrando Big Data Corp para fornecer indicadores críticos aos setores responsáveis.
+      Criei Restful APIs para o app exclusivo dos clientes, permitindo o acompanhamento em tempo real de resultados financeiros.
+      Desenvolvi um sistema de blog que foi um dos canais principais de comunicação com os clientes.
+      Melhorei a experiência de desenvolvimento, preparando ambientes Docker facilitadores do bootstrap de todas as aplicações.
+      Essas soluções entreguei utilizando principalmente Vue 3 com typeScript e Sass, Laravel, MongoDB, MySQL e Docker.
     `,
     link: "#",
   },
@@ -39,7 +43,8 @@ const experiences = [
     ocupation: "Desenvolvedor full stack",
     dateRange: "ABR 2022 - MAR 2023",
     desc: `
-      Desenvolvi aplicativos e sistemas de gestão desses apps, como por exemplo o app TudoTemm, que entregava aos usuários a experiência de compra de produtos alimentícios, delivery de fast food, contratação de serviços e turismo.
+      Desenvolvi aplicativos e sistemas de gestão desses apps, como por exemplo o app TudoTemm, que entrega aos usuários a experiência de compra de produtos alimentícios, delivery de fast food, contratação de serviços e turismo.
+      Desenvolvi o sdlgpecas.com, e-commerce que atende toda a américa latina com venda de produtos para máquinas pesadas.
       Para tanto utilizei tecnologias como IONIC com angular, TypeScript e Sass, Firebase, PHP e MySQL, entregando sistemas completos e alinhados às demandas de negócio.
     `,
     link: "https://site.alphacode.com.br",
