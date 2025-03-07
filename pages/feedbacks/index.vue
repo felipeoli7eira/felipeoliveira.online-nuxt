@@ -49,7 +49,7 @@
     </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .feedback {
     border-color: rgb(var(--color-accent));
 }
@@ -74,15 +74,37 @@ const feedbacks: Feedback = {
         {
             name: "João Vitor Mendonça",
             ocupation: "Tech Lead",
-            feedback: "Durante o período em que liderei os projetos dos quais o Felipe fez parte, sempre obtive ótimos resultados em suas entregas. Ele é um desenvolvedor comprometido, que busca constantemente entregar soluções eficientes e bem estruturadas. Além disso, demonstra grande capacidade de adaptação a novas tecnologias e interesse em compreender a regra de negócio para a qual está desenvolvendo. Em resumo, é um profissional que, sem dúvida, se adaptará rapidamente e extrairá seu máximo potencial em cada desafio.",
+            feedback: `
+                Durante o período em que liderei os projetos dos quais o Felipe fez parte, sempre obtive ótimos resultados em suas entregas.
+                Ele é um desenvolvedor comprometido, que busca constantemente entregar soluções eficientes e bem estruturadas.
+                Além disso, demonstra grande capacidade de adaptação a novas tecnologias e interesse em compreender a regra de negócio para a qual está desenvolvendo.
+                Em resumo, é um profissional que, sem dúvida, se adaptará rapidamente e extrairá seu máximo potencial em cada desafio.
+            `,
             linkedin: "https://www.linkedin.com/in/joaomendonca-dev"
+        },
+        {
+            name: "Andrey Alves",
+            ocupation: "Tech Lead",
+            feedback: `
+                Felipe é o tipo de profissional em quem você pode confiar plenamente.
+                Ele se compromete com suas responsabilidades e, mais do que isso, tem princípios sólidos.
+                Embora nosso contato direto no trabalho tenha sido limitado, sempre observei sua disposição para ajudar qualquer pessoa e lidar com qualquer situação.
+                No entanto, ele nunca deixou que suas próprias responsabilidades ficassem comprometidas; suas entregas estavam sempre em dia, e, caso previsse algum possível problema que pudesse afetar isso, ele sinalizava de imediato.
+                Em resumo, ele é um profissional raro no mercado, não apenas pela sua experiência técnica, mas também pelo seu caráter.
+            `,
+            linkedin: "https://www.linkedin.com/in/andrey-alves-32420a122"
         },
     ],
     friends: [
         {
             name: "Wenderson Fazan",
             ocupation: "Desenvolvedor Back-end | Data Scientist | DevOps",
-            feedback: "Durante o período em que trabalhei com o Felipe, pude notar seu grande empenho e curiosidade em aprender. Ele não se limitava apenas ao frontend, sua área principal, mas buscava constantemente entender o funcionamento mais profundo das tecnologias, questionando o porquê das coisas e explorando novas soluções. Além disso, sempre foi extremamente comunicativo e prestativo, o que tornou nossa colaboração em diversos projetos muito produtiva. Sem dúvida, Felipe é um profissional dedicado, que se adapta rapidamente e busca sempre evoluir.",
+            feedback: `
+                Durante o período em que trabalhei com o Felipe, pude notar seu grande empenho e curiosidade em aprender.
+                Ele não se limitava apenas ao frontend, sua área principal, mas buscava constantemente entender o funcionamento mais profundo das tecnologias, questionando o porquê das coisas e explorando novas soluções.
+                Além disso, sempre foi extremamente comunicativo e prestativo, o que tornou nossa colaboração em diversos projetos muito produtiva.
+                Sem dúvida, Felipe é um profissional dedicado, que se adapta rapidamente e busca sempre evoluir.
+            `,
             linkedin: "https://www.linkedin.com/in/wendersonfazan"
         }
     ],

@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     exposeConfig: true,
     viewer: true,
   },
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   gtag: {
     id: 'G-2Q5MKF2WK5'
   },

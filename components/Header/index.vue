@@ -1,5 +1,5 @@
 <template>
-    <header class="flex flex-col space-y-4 md:flex-row items-center justify-between p-7">
+    <header :class="{'backdrop-blur-md': isScrolled}" class="flex flex-col space-y-4 md:flex-row items-center justify-between p-7 sticky top-0 z-50">
         <h1 class="font-bold text-3xl">Felipe A. Oliveira</h1>
         <nav class="space-x-5 flex items-center">
             <RouterLink v-for="(link, index) in links" :key="index" :to="link.to">{{ link.label }}</RouterLink>
@@ -9,29 +9,14 @@
 </template>
 
 <script lang="ts" setup>
-    import { type RouteLocationAsPathGeneric, type RouteLocationAsRelativeGeneric } from 'vue-router'
+    import useHeaderHandler from './handler'
+    import { onMounted } from 'vue'
 
-    type TypeLink = {
-        label: string,
-        to: string | RouteLocationAsRelativeGeneric | RouteLocationAsPathGeneric,
-    }
+    const {
+        listenPageScroll,
+        isScrolled,
+        links
+    } = useHeaderHandler()
 
-    const links: TypeLink[] = [
-        {
-            label: 'Currículo',
-            to:  '/'
-        },
-        // {
-        //     label: 'Trabalhos',
-        //     to:  'trabalhos'
-        // },
-        {
-            label: 'Sobre',
-            to:  'sobre'
-        },
-        {
-            label: "Feedbacks",
-            to: "/feedbacks"
-        }
-    ]
+    onMounted(listenPageScroll)
 </script>
