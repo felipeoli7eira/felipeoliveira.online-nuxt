@@ -8,16 +8,16 @@
         tarefas, mas ser um profissional que <strong>entrega excelentes experiências de ponta a ponta</strong>.
       </p>
 
-      <p class="mb-4 text-justify">
+      <!-- <p class="mb-4 text-justify">
         Não sou apaixonado por tecnologia como você deve estar acostumado a ler em 10/10 perfis de profissionais por ai
         mas aprendi a gostar e adoro o que faço. Eu realmente gosto de entregar excelêntes experiências mais do que
         construir software.
-      </p>
+      </p> -->
 
       <p class="mb-4 text-justify">
         Possuo experiência construindo aplicações no setor público e privado com as tecnologias
         mais atuais do mercado como React, Vue, Angular, Laravel, Python, Docker, Ionic entre outras.
-        Tenho expertise para aprender novas tecnologias, principalmente quando posso “aprender fazendo”.
+        <!-- Tenho expertise para aprender novas tecnologias, principalmente quando posso “aprender fazendo”. -->
       </p>
 
       <p class="text-justify">
@@ -38,7 +38,8 @@
         <h3 class="text-3xl">{{ item.category }}</h3>
 
         <div class="flex flex-wrap gap-2 mt-3">
-          <p class="badge badge-ghost font-[400]" v-for="(value, valueIndex) in item.values" :key="valueIndex">{{ value }}</p>
+          <p class="badge badge-ghost font-[400]" v-for="(value, valueIndex) in item.values" :key="valueIndex">{{ value
+            }}</p>
         </div>
       </div>
 
@@ -66,7 +67,7 @@ const techs: Techs[] = [
   },
   {
     category: "Back-end",
-    values: ["PHP", "Python", "Laravel", "Node", "Go", "Express"],
+    values: ["PHP / Laravel", "Python", "Node / Express / Nest", "Go"],
   },
   {
     category: "Mobile",

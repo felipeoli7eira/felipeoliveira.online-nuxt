@@ -72,6 +72,20 @@ type Feedback = {
 const feedbacks: Feedback = {
     leaders: [
         {
+            name: "Isaque de Souza",
+            ocupation: "Tech Lead | Engenheiro Sênior (PHP | GoLang | Java | Node | C#)",
+            feedback: `
+                O Felipe é o tipo de profissional que qualquer líder gostaria de ter no time. Extremamente disciplinado, essa característica se reflete tanto na sua organização quanto na qualidade do seu trabalho.
+                Além de possuir excelentes soft skills, ele é igualmente capacitado tecnicamente, tanto no backend quanto no frontend, o que faz dele um dos poucos Full-Stacks realmente completos que conheço.
+                Essa versatilidade o torna uma peça-chave no time, facilitando o planejamento e a execução das demandas de um time multidisciplinar.
+                Sua capacidade de cumprir prazos vai além de apenas entregar suas tarefas com qualidade - na maioria das vezes, de forma antecipada.
+                Ele também se destaca por apoiar ativamente o restante do time, ajudando a destravar desafios e contribuir para o sucesso coletivo.
+                Além disso, o Felipe tem uma visão crítica e analítica, trazendo questionamentos relevantes nas reuniões e defendendo suas ideias com embasamento técnico, sempre agregando valor às discussões.
+                Sem dúvida, é um profissional que eleva o nível de qualquer equipe.
+            `,
+            linkedin: "https://www.linkedin.com/in/isaque"
+        },
+        {
             name: "João Vitor Mendonça",
             ocupation: "Tech Lead",
             feedback: `
