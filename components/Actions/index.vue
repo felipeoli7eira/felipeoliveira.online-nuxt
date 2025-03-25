@@ -36,7 +36,7 @@
         },
         {
             icon: "pi pi-envelope",
-            url: "mailto:contato@felipeoliveira.online",
+            url: "mailto:me.felipeoliveira@gmail.com",
             target: "_self"
         }
         ,
