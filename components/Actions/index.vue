@@ -42,7 +42,7 @@
         ,
         {
             icon: "pi pi-file-pdf",
-            url: "https://drive.google.com/file/d/1DnpZJ6FokovfS9NXUMhM4ViAstz6sHFn/view?usp=sharing",
+            url: "https://drive.google.com/file/d/1DxMDo6fDSM-RHSgjRdOa-gktBBeJzb_y/view?usp=drive_link",
             target: "_blank"
         }
     ];
